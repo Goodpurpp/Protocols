@@ -14,4 +14,4 @@ tracert), т. е. мы узнаем IP адреса маршрутизаторо
 
 ## Решение - tracer.py
 
-![Image alt](https://github.com/Goodpurpp/Protocols/tree/master/images)
+![Image alt](https://github.com/Goodpurpp/Protocols/blob/master/images/tracer_help.jpg)
