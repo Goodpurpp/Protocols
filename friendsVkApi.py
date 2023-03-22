@@ -2,8 +2,6 @@ import csv
 import json
 import time
 from argparse import ArgumentParser
-from pprint import pprint
-
 from art import tprint
 
 import requests
@@ -33,10 +31,9 @@ def get_user_info(user_id):
 def parse_and_write_csv(data, count):
     counter = 1
     with open("friends.csv", "w") as file:
-        friends = list()
         a_pen = csv.writer(file, delimiter=",")
         a_pen.writerow(('first name', 'last name'))
-        print('first name', 'last name', sep=" ")
+        tprint('first name', 'last name', sep=" ")
         for user in data:
             try:
                 friend_info = get_user_info(user)['response'][0]
@@ -47,7 +44,7 @@ def parse_and_write_csv(data, count):
                     time.sleep(0.5)
             except KeyError:
                 pass
-    tprint("Saved in friends.csv!")
+    print("Saved in friends.csv!")
 
 
 def main():
