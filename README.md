@@ -24,4 +24,6 @@ book, yandex) получить информацию и вывести ее в у
 - Например, вывести список друзей указанного пользователя, вывести названия фотоальбомов указанного пользо-
 вателя и т. п.
 
-## Решение - friendsVkApi.py 
+## Решение - friendsVkApi.py
+
+![Image alt](https://github.com/Goodpurpp/Protocols/blob/master/images/friends_vk.jpg)
