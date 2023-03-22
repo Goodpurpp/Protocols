@@ -13,3 +13,5 @@ tracert), т. е. мы узнаем IP адреса маршрутизаторо
 региональных интернет регистраторов.
 
 ## Решение - tracer.py
+
+![Image alt](https://github.com/Goodpurpp/Protocols/tree/master/images)
