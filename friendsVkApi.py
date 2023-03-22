@@ -33,7 +33,7 @@ def parse_and_write_csv(data, count):
     with open("friends.csv", "w") as file:
         a_pen = csv.writer(file, delimiter=",")
         a_pen.writerow(('first name', 'last name'))
-        tprint('first name', 'last name', sep=" ")
+        print('first name', 'last name', sep=" ")
         for user in data:
             try:
                 friend_info = get_user_info(user)['response'][0]
@@ -44,7 +44,7 @@ def parse_and_write_csv(data, count):
                     time.sleep(0.5)
             except KeyError:
                 pass
-    print("Saved in friends.csv!")
+    tprint("Saved in friends.csv!")
 
 
 def main():
