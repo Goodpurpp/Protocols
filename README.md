@@ -27,3 +27,7 @@ book, yandex) получить информацию и вывести ее в у
 ## Решение - friendsVkApi.py
 
 ![Image alt](https://github.com/Goodpurpp/Protocols/blob/master/images/friends_vk.jpg)
+
+
+https://user-images.githubusercontent.com/91487145/226864234-d05b4b0c-4f8b-4cc8-b256-38e6240bd7d7.mov
+
