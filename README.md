@@ -16,4 +16,5 @@ tracert), т. е. мы узнаем IP адреса маршрутизаторо
 
 ![Image alt](https://github.com/Goodpurpp/Protocols/blob/master/images/tracer_help.jpg)
 
-https://github.com/Goodpurpp/Protocols/blob/master/images/tracer.mov
+https://user-images.githubusercontent.com/91487145/226860232-a7999045-77db-44a4-a2a2-b27fdd694826.mov
+
